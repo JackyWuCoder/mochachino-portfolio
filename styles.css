@@ -86,3 +86,48 @@ Text Colors: #ffffff, #ffaec0, #9ca3af, #4b5563, #374151, #1f2937, #000000 (Blac
 .navbar a.active::after {
   width: 100%;
 }
+
+/* Footer */
+
+.footer-container {
+  background-color: #ffd1dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.footer-top,
+.footer-bottom {
+  margin: 20px 0;
+}
+
+.footer-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-brand > .logo-container {
+  margin-bottom: 10px;
+}
+
+.footer-divider {
+  width: 100%;
+}
+
+/* Home Page */
+
+.body-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
