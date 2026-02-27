@@ -27,6 +27,11 @@ Text Colors: #ffffff, #ffaec0, #9ca3af, #4b5563, #374151, #1f2937, #000000 (Blac
 
 /* Navigation Bar */
 
+/* Hamburger Menu */
+.hamburger-navbar {
+  display: none;
+}
+
 .navbar-container {
   background-color: #ffd1dc;
   display: flex;
@@ -35,6 +40,7 @@ Text Colors: #ffffff, #ffaec0, #9ca3af, #4b5563, #374151, #1f2937, #000000 (Blac
   padding-bottom: 10px;
   position: fixed;
   width: 100%;
+  z-index: 9999;
 }
 
 .logo-container {
@@ -279,4 +285,39 @@ figcaption {
   font-weight: bold;
   cursor: pointer;
   border: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+  .hamburger-navbar {
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+  }
+  .portfolio-summary-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+  }
+  .featured-works {
+    grid-template-columns: 1fr;
+  }
+  .footer-inner-container {
+    gap: 10px;
+  }
+  .footer-top {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
