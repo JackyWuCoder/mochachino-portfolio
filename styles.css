@@ -105,7 +105,7 @@ Text Colors: #ffffff, #ffaec0, #9ca3af, #4b5563, #374151, #1f2937, #000000 (Blac
 
 .footer-top,
 .footer-bottom {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .footer-top {
@@ -117,6 +117,20 @@ Text Colors: #ffffff, #ffaec0, #9ca3af, #4b5563, #374151, #1f2937, #000000 (Blac
 
 .footer-brand > .logo-container {
   margin-bottom: 10px;
+}
+
+.socials-navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.socials-navbar a {
+  color: #9ca3af;
+  font-size: 1.5rem;
+}
+
+.socials-navbar a:hover {
+  color: white;
 }
 
 .footer-divider {
