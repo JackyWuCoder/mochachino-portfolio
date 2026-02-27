@@ -158,6 +158,10 @@ h1 {
   color: #ffaec0;
 }
 
+h2 {
+  color: #ffaec0;
+}
+
 .page-container {
   margin-top: 100px;
   display: flex;
@@ -188,7 +192,7 @@ h1 {
 }
 
 .portfolio-summary-info > p {
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .main-socials > a {
@@ -208,9 +212,52 @@ h1 {
   gap: 20px;
 }
 
+.featured-works {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  max-width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid pink;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: border-radius 0.3s ease;
+}
+
+.card:hover {
+  border-radius: 5px;
+  border: 2px solid pink;
+}
+
+.card:hover figcaption {
+  position: static;
+  opacity: 1;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+}
+
+.card > img {
+  width: 100%;
+  height: 100%;
+}
+
 .featured-works-container > button {
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 10px;
   background-color: #ffaec0;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
 }
