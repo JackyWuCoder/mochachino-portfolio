@@ -17,6 +17,7 @@ Text Colors: #ffffff, #ffaec0, #9ca3af, #4b5563, #374151, #1f2937, #000000 (Blac
 }
 
 .body-container {
+  font-family: Montserrat, sans-serif;
   background-color: #f9fafb;
   height: 100vh;
   display: flex;
@@ -209,4 +210,7 @@ h1 {
 
 .featured-works-container > button {
   margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffaec0;
 }
