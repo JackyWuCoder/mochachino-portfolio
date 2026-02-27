@@ -178,9 +178,28 @@ h2 {
   justify-content: center;
 }
 
+.portfolio-summary-image {
+  width: 320px;
+  height: 320px;
+}
+
 .portfolio-summary-image > img {
+  width: 320px;
+  height: 320px;
   border: 10px solid white;
   border-radius: 50%;
+}
+
+.profile-image2 {
+  display: none;
+}
+
+.portfolio-summary-image:hover .profile-image1 {
+  display: none;
+}
+
+.portfolio-summary-image:hover .profile-image2 {
+  display: block;
 }
 
 .portfolio-summary-info {
