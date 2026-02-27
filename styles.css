@@ -1,0 +1,88 @@
+/*
+Background Colors: #ffffff (White), #f9fafb, #ffe6eb, #ffd1dc
+Text Colors: #ffffff, #ffaec0, #9ca3af, #4b5563, #374151, #1f2937, #000000 (Black)
+*/
+
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+
+.navbar-container {
+  background-color: #ffd1dc;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar > ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar a {
+  display: inline-block;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #4b5563;
+  position: relative;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffaec0;
+  transform: translateY(-2px);
+}
+
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffaec0;
+}
+
+.navbar a.active {
+  color: #ffaec0;
+}
+
+.navbar a.active::after {
+  width: 100%;
+}
