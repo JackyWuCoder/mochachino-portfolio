@@ -16,6 +16,13 @@ Text Colors: #ffffff, #ffaec0, #9ca3af, #4b5563, #374151, #1f2937, #000000 (Blac
   padding: 0;
 }
 
+.body-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* Navigation Bar */
 
 .navbar-container {
@@ -139,9 +146,31 @@ Text Colors: #ffffff, #ffaec0, #9ca3af, #4b5563, #374151, #1f2937, #000000 (Blac
 
 /* Home Page */
 
-.body-container {
-  height: 100vh;
+.page-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.portfolio-summary-container {
+  display: flex;
+}
+
+.portfolio-summary-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-works-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.featured-works-container > button {
+  margin-bottom: 20px;
 }
