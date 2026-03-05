@@ -4,5 +4,5 @@ async function loadComponent(id, file) {
   document.getElementById(id).innerHTML = text;
 }
 
-loadComponent("navbar", "./components/navbar.html");
-loadComponent("footer", "./components/footer.html");
+loadComponent("navbar", "/components/navbar.html");
+loadComponent("footer", "/components/footer.html");
