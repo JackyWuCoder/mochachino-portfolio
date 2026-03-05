@@ -165,7 +165,7 @@ body {
 }
 
 .socials-navbar a {
-  color: #9ca3af;
+  color: var(--text-color);
   font-size: 1.5rem;
   transition:
     color 0.3s ease,
@@ -245,7 +245,6 @@ h2 {
 
 .main-socials > a {
   font-size: 2rem;
-  color: black;
 }
 
 .main-socials > a:hover {
