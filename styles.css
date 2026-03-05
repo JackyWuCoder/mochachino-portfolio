@@ -379,3 +379,26 @@ figcaption {
 }
 
 /* Portfolio Page */
+
+.tabs .active {
+  color: var(--primary-palette-color-4);
+}
+
+/* Masonry Layout */
+.works-container {
+  width: 80%;
+  column-width: 300px;
+  column-gap: 20px;
+}
+
+.work {
+  break-inside: avoid;
+  margin-bottom: 20px;
+}
+
+.work > img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* Masonry Layout End */
