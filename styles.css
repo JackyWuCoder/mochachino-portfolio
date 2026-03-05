@@ -5,6 +5,15 @@ Text Colors: #ffffff, #ffaec0, #9ca3af, #4b5563, #374151, #1f2937, #000000 (Blac
 
 /* CSS Reset */
 
+:root {
+  --background-color: #fff5e4;
+  --section-background-color: #ffe3e1;
+  --cards-background-color: #ffd1d1;
+  --accent-background-color: #ff9494;
+  --hover-background-color: #ff7a7a;
+  --text-color: #3a2e2a;
+}
+
 *,
 *::before,
 *::after {
