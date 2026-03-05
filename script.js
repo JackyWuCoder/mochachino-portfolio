@@ -32,6 +32,13 @@ function setupTabs() {
       .querySelectorAll(".tab")
       .forEach((t) => t.classList.remove("active"));
     btn.classList.add("active");
+
+    const filter = btn.dataset.filter; // "all" | "illustration" | "chibi"
+    document.querySelectorAll(".works-container .work").forEach((work) => {
+      const type = work.dataset.type;
+      const shouldShow = filter === "all" || filter === type ? "" : "none";
+      work.style.display = shouldShow;
+    });
   });
 }
 
