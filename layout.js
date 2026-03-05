@@ -20,5 +20,5 @@ function setActiveLink() {
   });
 }
 
-loadComponent("navbar", "/components/navbar.html");
-loadComponent("footer", "/components/footer.html");
+loadComponent("navbar", "./components/navbar.html");
+loadComponent("footer", "./components/footer.html");
