@@ -1,17 +1,47 @@
 [
-  { "src": "/images/chibi/chibi1.png", "type": "chibi" },
-  { "src": "/images/chibi/chibi2.jpg", "type": "chibi" },
-  { "src": "/images/chibi/chibi3.jpg", "type": "chibi" },
-  { "src": "/images/chibi/chibi4.jpg", "type": "chibi" },
-  { "src": "/images/chibi/chibi5.jpg", "type": "chibi" },
-  { "src": "/images/illustration/illustration1.jpg", "type": "illustration" },
-  { "src": "/images/illustration/illustration2.jpg", "type": "illustration" },
-  { "src": "/images/illustration/illustration3.jpg", "type": "illustration" },
-  { "src": "/images/illustration/illustration4.jpg", "type": "illustration" },
-  { "src": "/images/illustration/illustration5.jpg", "type": "illustration" },
-  { "src": "/images/illustration/illustration6.jpg", "type": "illustration" },
-  { "src": "/images/illustration/illustration7.jpg", "type": "illustration" },
-  { "src": "/images/illustration/illustration8.jpg", "type": "illustration" },
-  { "src": "/images/illustration/illustration9.jpg", "type": "illustration" },
-  { "src": "/images/illustration/illustration10.jpg", "type": "illustration" }
+  { "src": "/mochachino-portfolio/images/chibi/chibi1.png", "type": "chibi" },
+  { "src": "/mochachino-portfolio/images/chibi/chibi2.jpg", "type": "chibi" },
+  { "src": "/mochachino-portfolio/images/chibi/chibi3.jpg", "type": "chibi" },
+  { "src": "/mochachino-portfolio/images/chibi/chibi4.jpg", "type": "chibi" },
+  { "src": "/mochachino-portfolio/images/chibi/chibi5.jpg", "type": "chibi" },
+  {
+    "src": "/mochachino-portfolio/images/illustration/illustration1.jpg",
+    "type": "illustration"
+  },
+  {
+    "src": "/mochachino-portfolio/images/illustration/illustration2.jpg",
+    "type": "illustration"
+  },
+  {
+    "src": "/mochachino-portfolio/images/illustration/illustration3.jpg",
+    "type": "illustration"
+  },
+  {
+    "src": "/mochachino-portfolio/images/illustration/illustration4.jpg",
+    "type": "illustration"
+  },
+  {
+    "src": "/mochachino-portfolio/images/illustration/illustration5.jpg",
+    "type": "illustration"
+  },
+  {
+    "src": "/mochachino-portfolio/images/illustration/illustration6.jpg",
+    "type": "illustration"
+  },
+  {
+    "src": "/mochachino-portfolio/images/illustration/illustration7.jpg",
+    "type": "illustration"
+  },
+  {
+    "src": "/mochachino-portfolio/images/illustration/illustration8.jpg",
+    "type": "illustration"
+  },
+  {
+    "src": "/mochachino-portfolio/images/illustration/illustration9.jpg",
+    "type": "illustration"
+  },
+  {
+    "src": "/mochachino-portfolio/images/illustration/illustration10.jpg",
+    "type": "illustration"
+  }
 ]

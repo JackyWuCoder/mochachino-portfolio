@@ -1,5 +1,5 @@
 async function loadWorks() {
-  const res = await fetch("/images.json");
+  const res = await fetch("/mochachino-portfolio/images.json");
   images = await res.json();
 
   const container = document.querySelector(".works-container");
