@@ -19,4 +19,20 @@ async function loadWorks() {
   });
 }
 
-loadWorks();
+function setupTabs() {
+  const tabsContainer = document.querySelector(".tabs");
+  if (!tabsContainer) return;
+
+  tabsContainer.addEventListener("click", (e) => {
+    const btn = e.target.closest(".tab");
+    if (!btn) return;
+
+    // Change the active tab for styling
+    document
+      .querySelectorAll(".tab")
+      .forEach((t) => t.classList.remove("active"));
+    btn.classList.add("active");
+  });
+}
+
+loadWorks().then(setupTabs);
