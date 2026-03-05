@@ -11,10 +11,12 @@ Text Colors: #ffffff, #ffaec0, #9ca3af, #4b5563, #374151, #1f2937, #000000 (Blac
   --primary-palette-color-3: #ffd1d1;
   --primary-palette-color-4: #ff9494;
 
-  --text-hover-color: #ff9494;
+  --text-hover-color: var(--primary-palette-color-4);
   --text-color: #3a2e2a;
+
   --navbar-background-color: var(--primary-palette-color-2);
   --navbar-bottom-border-color: var(--primary-palette-color-3);
+  --footer-top-border-color: var(--primary-palette-color-4);
   --footer-background-color: var(--primary-palette-color-3);
 }
 
@@ -131,9 +133,11 @@ body {
 
 .footer-container {
   background-color: var(--footer-background-color);
+  color: var(--text-color);
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 2px solid var(--footer-top-border-color);
 }
 
 .footer-inner-container {
@@ -173,10 +177,12 @@ body {
 }
 
 .socials-navbar a:hover {
-  color: white;
+  color: var(--text-hover-color);
+  transform: translate(2px, -2px);
 }
 
 .footer-divider {
+  border: 1px solid var(--primary-palette-color-2);
   width: 100%;
 }
 
@@ -245,11 +251,6 @@ h2 {
 
 .main-socials > a {
   font-size: 2rem;
-}
-
-.main-socials > a:hover {
-  color: #ffaec0;
-  transform: translate(2px, -2px);
 }
 
 .featured-works-container {
