@@ -190,11 +190,15 @@ body {
 
 h1 {
   font-size: 5rem;
-  color: #ffaec0;
+  color: var(--text-color);
 }
 
 h2 {
   color: #ffaec0;
+}
+
+h3 {
+  color: var(--primary-palette-color-4);
 }
 
 .page-container {
@@ -246,8 +250,14 @@ h2 {
   justify-content: space-evenly;
 }
 
+.portfolio-summary-info > p,
+.main-socials > a {
+  opacity: 0.85;
+}
+
 .portfolio-summary-info > p {
   max-width: 600px;
+  text-align: center;
 }
 
 .main-socials > a {
